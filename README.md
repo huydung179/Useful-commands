@@ -3,7 +3,7 @@
 ## Screen
 
 Display all running sessions:
-$ screen -ls
+`screen -ls`
 
 Create a new session:
 $ screen -S session_name
