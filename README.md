@@ -1,5 +1,10 @@
 # Useful-commands
 
+## SSH
+
+Forward ports:
+`ssh -NfL [loginID]@[remote server]:[server post]:localhost:[local port]`
+
 ## Screen
 
 Display all running sessions:
