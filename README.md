@@ -3,7 +3,7 @@
 ## SSH
 
 Forward ports:
-`ssh -NfL [loginID]@[remote server]:[server post]:localhost:[local port]`
+`ssh -NfL [server post]:localhost:[local port] [loginID]@[remote server]`
 
 ## Screen
 
