@@ -39,4 +39,4 @@ Alias in ~/.bashrc:
 `alias nvidia-run="nvidia-docker run --rm -it --gpus=all --user=$(id -u):$(id -g) -v /etc/passwd:/etc/passwd:ro -v /etc/group:/etc/group:ro --shm-size 2056m"`
 
 Run a docker:
-`docker-run -v [local path]:[container path] [docker image's name] (bash)`
+`nvidia-run -v [local path]:[container path] [docker image's name] (bash)`
